@@ -1,3 +1,4 @@
+// Primitive Datatypes in TypeScript
 let username: string = "Prakash";
 let age: number = 27;
 let isCreator: boolean = true;
