@@ -1,4 +1,5 @@
 // value -> this OR that
+// unions
 
 function printId(id: string | number) {
   //   if(typeof id === 'string') {
@@ -36,4 +37,4 @@ const arrayOfUnion: (string | number)[] = ["a", 1, "b", "2"];
 const unionOfArrays: string[] | number[] =
   Math.random() > 0.1 ? ["x", "3"] : [1, 2];
 
-  // unionOfArrays.push(2)
+// unionOfArrays.push(2)
